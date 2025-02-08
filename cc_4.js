@@ -37,3 +37,11 @@ console.log(prices);//Inital price log
 let discountedPrices = prices.map(prices=> prices *.9); //Discount rate
 console.log(discountedPrices);//After discount log
 
+//Task 5 
+//Declare inventory
+let inventory = [45,234,576,0,4567];
+console.log(inventory);//Inital inventory
+let filteredInventory= inventory.filter(quantity => quantity>0);//Remove products with 0 quantity
+console.log(filteredInventory);//Log filtered
+
+
