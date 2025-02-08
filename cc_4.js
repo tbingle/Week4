@@ -66,3 +66,12 @@ function calculateTax(amount, taxRate){
     return tax;
 };
 calculateTax(amount,taxRate);//Log tax in console
+
+//Task 9
+//Discounts
+function applyDiscount(Price,discount){
+    let discountedPrice = Price - (Price* discount);
+    console.log(`Discounted Price: $${discountedPrice}`);
+    return discount;
+}
+applyDiscount(2345,.2);
