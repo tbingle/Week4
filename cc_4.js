@@ -75,3 +75,12 @@ function applyDiscount(Price,discount){
     return discount;
 }
 applyDiscount(2345,.2);
+
+//Task 10
+//Points
+let calcualtePoints = purchaseAmount =>{
+    let Points = Math.floor(purchaseAmount/10);
+    console.log(`Points earned: ${Points}`);
+    return Points;
+};
+calcualtePoints(456)//$456 spent 
