@@ -44,4 +44,8 @@ console.log(inventory);//Inital inventory
 let filteredInventory= inventory.filter(quantity => quantity>0);//Remove products with 0 quantity
 console.log(filteredInventory);//Log filtered
 
-
+//Task 6
+//Sales revenue
+let sales = [435,3456,1234,4356];
+let totalRevenue= sales.reduce((total,currentSales)=>total+ currentSales,0);
+console.log (totalRevenue);
