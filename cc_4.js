@@ -23,3 +23,9 @@ let order = {
 };
 order.displayOrder(); //Show order details in console
 
+let cartItems = ["Bread", "Steak","Milk"];
+cartItems.push ("chicken")
+cartItems.pop();
+cartItems.unshift("Apples");
+cartItems.shift()
+console.log(cartItems);
