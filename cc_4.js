@@ -29,3 +29,11 @@ cartItems.pop();
 cartItems.unshift("Apples");
 cartItems.shift()
 console.log(cartItems);
+
+//Task 4 
+//Declare prices
+let prices = [123,55,3332];
+console.log(prices);//Inital price log
+let discountedPrices = prices.map(prices=> prices *.9); //Discount rate
+console.log(discountedPrices);//After discount log
+
