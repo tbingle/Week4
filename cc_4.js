@@ -49,3 +49,10 @@ console.log(filteredInventory);//Log filtered
 let sales = [435,3456,1234,4356];
 let totalRevenue= sales.reduce((total,currentSales)=>total+ currentSales,0);
 console.log (totalRevenue);
+
+//Task 7 
+//Customer array
+let customers = ["Bob","Bink","One","Toad"];
+let customerFind = customers.find(Customer=> Customer === "Bink");//Find Bink
+console.log(customerFind);//Log into console
+
