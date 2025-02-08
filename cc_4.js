@@ -56,3 +56,13 @@ let customers = ["Bob","Bink","One","Toad"];
 let customerFind = customers.find(Customer=> Customer === "Bink");//Find Bink
 console.log(customerFind);//Log into console
 
+//Task 8
+//Tax calculation
+let amount = 345
+let taxRate = .065
+function calculateTax(amount, taxRate){
+    let tax = amount * taxRate;
+    console.log(`Tax to be collected: $${tax}`);
+    return tax;
+};
+calculateTax(amount,taxRate);//Log tax in console
